@@ -32,10 +32,12 @@
                 pandas
                 scipy
                 pytest
+                scikit-learn
               ])))
               pkgs.python312Packages.jupyterlab
               pkgs.python312Packages.jupyterlab-server
               pkgs.jupyter
+              pkgs.black
             ];
           };
         };
