@@ -37,7 +37,9 @@
               pkgs.python312Packages.jupyterlab
               pkgs.python312Packages.jupyterlab-server
               pkgs.jupyter
+              pkgs.quarto
               pkgs.black
+              pkgs.texlab
             ];
           };
         };
